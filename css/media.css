@@ -1,0 +1,37 @@
+@media screen and (max-width: 992px) {
+    nav .wrapper .nav-links {
+        display: none;
+    }
+
+    nav .wrapper .btn-responsive {
+        opacity: 1;
+        visibility: visible;
+        display: block;
+    }
+
+    nav .wrapper .nav-links.responsive {
+        display: block;
+        position: fixed;
+        top: 85px;
+        right: 0px;
+        background-color: var(--dark-color);
+        height: 100%;
+        width: 20rem;
+        transition: all 0.5s ease-in;
+    }
+
+    nav .wrapper .nav-links li a {
+        color: var(--white-color);
+    }
+
+    nav .wrapper .nav-links li {
+        position: relative;
+    }
+
+    nav .wrapper .nav-links .dropdown-menu {
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+
+}

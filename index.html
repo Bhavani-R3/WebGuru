@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Menu</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="#">Web <span>Guru</span></a>
+            </div>
+
+            <div class="btn-responsive" onclick="toggle()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="sub-menu"><a href="#tutorials">Tutorials</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Html</a></li>
+                        <li><a href="#">Css</a></li>
+                        <li><a href="#">Css3</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Bootstrap</a></li>
+                        <li><a href="#">ReactJS</a></li>
+                        <li><a href="#">NodeJS</a></li>
+                        <li><a href="#">ExpressJS</a></li>
+                    </ul>
+                </li>
+                <li class="sub-menu"><a href="#examples">Examples</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">FrontEnd</a></li>
+                        <li><a href="#">Server</a></li>
+                        <li><a href="#">Fullstack</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">MicroService</a></li>
+                    </ul>
+                </li> 
+                <li class="sub-menu"><a href="#questions">Questions</a>
+                    <div class="mega-menu">
+                        <div class="content">
+                            <div class="row">
+                                <h1 class="title">FrontEnd</h1>
+                                <ul class="mega-menu-links">
+                                    <li><a href="#">Html</a></li>
+                                    <li><a href="#">Css</a></li>
+                                    <li><a href="#">React</a></li>
+                                    <li><a href="#">Angular</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h1 class="title">BackEnd</h1>
+                                <ul class="mega-menu-links">
+                                    <li><a href="#">Php</a></li>
+                                    <li><a href="#">Python</a></li>
+                                    <li><a href="#">Java</a></li>
+                                    <li><a href="#">NodeJS</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <h1 class="title">Database</h1>
+                            </div>
+                            <div class="row">
+                                <h1 class="title">DataStructure</h1>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="container">
+        <div id="home">
+            <main class="content">
+                <div class="void" id="void">
+                    <div class="crop">
+                        <ul class="card-list">
+                            <li>
+                                <div class="card">
+                                    <a href="#">
+                                        <span class="model-name">HTML</span>
+                                        <span>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <a href="#">
+                                        <span class="model-name">CSS</span>
+                                        <span>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <a href="#">
+                                        <span class="model-name">JavaScript</span>
+                                        <span>JavaScript, often abbreviated as JS, is a programming languag that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <a href="#">
+                                        <span class="model-name">Bootstrap</span>
+                                        <span>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <a href="#">
+                                        <span class="model-name">ReactJS</span>
+                                        <span>React is a free and open-source front-end JavaScript library for building user interfaces based on components.</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <a href="#">
+                                        <span class="model-name">NodeJS</span>
+                                        <span>Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more.</span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="card">
+                                    <a href="#">
+                                        <span class="model-name">ExpressJS</span>
+                                        <span>Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js.</span>
+                                    </a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="last-circle"></div>
+                        <div class="second-circle"></div>
+                    </div>
+                    <!-- <div class="mask"></div> -->
+                    <div class="center-circle"></div>
+                </div>
+            </main>
+        </div>
+        <div id="about">
+            <main class="content">
+                <div class="title">
+                    <h4 class="title-txt">We Have Best Education</h4>
+                    <p>Far far away, behind the word mountains, far from the countries vokalia and Consonantia, there line the blind texts</p>
+                </div>
+                <div class="card-container">
+                    <div class="course-card">
+                        <div class="image">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="course-content">
+                            <h5>HTML</h5>
+                            <p>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="image">
+                            <i class="fa-brands fa-css3"></i>
+                        </div>
+                        <div class="course-content">
+                            <h5>CSS</h5>
+                            <p>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="image">
+                            <i class="fa-brands fa-js"></i>
+                        </div>
+                        <div class="course-content">
+                            <h5>JavaScript</h5>
+                            <p>JavaScript, often abbreviated as JS, is a programming languag that is one of the core technologies of the World Wide Web, alongside HTML and CSS.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="image">
+                            <i class="fa-brands fa-bootstrap"></i>
+                        </div>
+                        <div class="course-content">
+                            <h5>Bootstrap</h5>
+                            <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="image">
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                        <div class="course-content">
+                            <h5>ReactJS</h5>
+                            <p>React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+                        </div>
+                    </div>
+                    <div class="course-card">
+                        <div class="image">
+                            <i class="fa-brands fa-node-js"></i>
+                        </div>
+                        <div class="course-content">
+                            <h5>NodeJS</h5>
+                            <p>Node.js is a cross-platform, open-source server environment that can run on Windows, Linux, Unix, macOS, and more.</p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div id="tutorials">
+            <main class="content">
+                <h1 class="title">Tutorials</h1>
+            </main>
+        </div>
+        <div id="examples">
+            <main class="content">
+                <h1 class="title">Examples</h1>
+            </main>
+        </div>
+        <div id="questions">
+            <main class="content">
+                <h1 class="title">Questions</h1>
+            </main>
+        </div>
+        <div id="contact">
+            <main class="content">
+                <h1 class="title">Contact</h1>
+            </main>
+        </div>
+    </section>
+
+    <script src="js/menu.js"></script>
+    
+</body>
+</html>
