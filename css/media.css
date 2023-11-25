@@ -34,4 +34,13 @@
         top: 0px;
     }
 
+    /* testimonials */
+    #testimonial .content .card-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #testimonial .content .title h3 {
+        font-size: 1em;
+    }
 }

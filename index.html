@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav>
@@ -36,7 +37,7 @@
                         <li><a href="#">ExpressJS</a></li>
                     </ul>
                 </li>
-                <li class="sub-menu"><a href="#examples">Examples</a>
+                <li class="sub-menu"><a href="#testimonial">Examples</a>
                     <ul class="dropdown-menu">
                         <li><a href="#">FrontEnd</a></li>
                         <li><a href="#">Server</a></li>
@@ -158,7 +159,7 @@
                     <p>Far far away, behind the word mountains, far from the countries vokalia and Consonantia, there line the blind texts</p>
                 </div>
                 <div class="card-container">
-                    <div class="course-card">
+                    <div class="course-card" >
                         <div class="image">
                             <i class="fa-brands fa-html5"></i>
                         </div>
@@ -215,29 +216,230 @@
                 </div>
             </main>
         </div>
+
+        <!-- Tutorials Section -->
         <div id="tutorials">
             <main class="content">
-                <h1 class="title">Tutorials</h1>
+                <div class="title">
+                    Courses
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-code"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>FullStack Courses</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-cloud-arrow-down"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>Cloud Computing</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-clock"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>AI and ML</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-language"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>Foreign Languages</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-earth"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>Overseas Education</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>App Development</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-user-alt"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>HR & Recruitment</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="icon">
+                            <i class="fa fa-blog"></i>
+                        </div>
+                        <div class="txt">
+                            <h4>Content Writing</h4>
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
-        <div id="examples">
+
+        <!-- Example Section -->
+        <div id="testimonial">
             <main class="content">
-                <h1 class="title">Examples</h1>
+                <div class="title">
+                    <h3>Testimonials</h3>
+                </div>
+
+                <div class="card-container">
+                    <div class="card">
+                        <div class="txt">
+                            <div class="desc">
+                                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos aspernatur exercitationem praesentium molestias.</q>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="https://picsum.photos/id/123/400/400" alt="no image" class="user">
+                        </div>
+                        <div class="user-title">
+                            <h4>User-1</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="txt">
+                            <div class="desc">
+                                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos aspernatur exercitationem praesentium molestias.</q>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="https://picsum.photos/id/133/400/400" alt="no image" class="user">
+                        </div>
+                        <div class="user-title">
+                            <h4>User-2</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="txt">
+                            <div class="desc">
+                                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quos aspernatur exercitationem praesentium molestias.</q>
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="https://picsum.photos/id/143/400/400" alt="no image" class="user">
+                        </div>
+                        <div class="user-title">
+                            <h4>User-3</h4>
+                            <p>Web Developer</p>
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
+
+        <!-- Questions Section -->
         <div id="questions">
             <main class="content">
-                <h1 class="title">Questions</h1>
+                <div class="title">
+                    <h3>Questions</h3>
+                </div>
+                <div class="card-container">
+                    <div class="accordion-container">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                FAQ Question-1? <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet rem sequi mollitia maiores incidunt ab, architecto corrupti velit perferendis numquam, aspernatur hic nam cumque optio eaque dolorem cupiditate. Perspiciatis distinctio, voluptatum ducimus, atque temporibus quidem quis aperiam, commodi praesentium quas ratione unde est nostrum soluta at architecto reiciendis ipsum a?</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                FAQ Question-2? <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet rem sequi mollitia maiores incidunt ab, architecto corrupti velit perferendis numquam, aspernatur hic nam cumque optio eaque dolorem cupiditate. Perspiciatis distinctio, voluptatum ducimus, atque temporibus quidem quis aperiam, commodi praesentium quas ratione unde est nostrum soluta at architecto reiciendis ipsum a?</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                FAQ Question-3? <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet rem sequi mollitia maiores incidunt ab, architecto corrupti velit perferendis numquam, aspernatur hic nam cumque optio eaque dolorem cupiditate. Perspiciatis distinctio, voluptatum ducimus, atque temporibus quidem quis aperiam, commodi praesentium quas ratione unde est nostrum soluta at architecto reiciendis ipsum a?</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                FAQ Question-4? <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet rem sequi mollitia maiores incidunt ab, architecto corrupti velit perferendis numquam, aspernatur hic nam cumque optio eaque dolorem cupiditate. Perspiciatis distinctio, voluptatum ducimus, atque temporibus quidem quis aperiam, commodi praesentium quas ratione unde est nostrum soluta at architecto reiciendis ipsum a?</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                FAQ Question-5? <span class="icon">+</span>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet rem sequi mollitia maiores incidunt ab, architecto corrupti velit perferendis numquam, aspernatur hic nam cumque optio eaque dolorem cupiditate. Perspiciatis distinctio, voluptatum ducimus, atque temporibus quidem quis aperiam, commodi praesentium quas ratione unde est nostrum soluta at architecto reiciendis ipsum a?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
         <div id="contact">
             <main class="content">
-                <h1 class="title">Contact</h1>
+                <div class="title">
+                    <h3>Contact Us</h3>
+                </div>
+
+                <div class="contact-container">
+                    <div class="address">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.669231620229!2d77.53650917484548!3d12.992995314409317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d8ad89380bd%3A0xe619385693ac1684!2sBe%20Practical!5e0!3m2!1sen!2sin!4v1700897525945!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="contact-form">
+                        <div class="card">
+                            <form autocomplete="off" method="post">
+                                <div class="form-item">
+                                    <input type="text" name="name" id="name" placeholder="Enter Name" required>
+                                </div>
+                                <div class="form-item">
+                                    <input type="email" name="email" id="email" placeholder="Enter Email id" required>
+                                </div>
+                                <div class="form-item">
+                                    <input type="number" name="mobile" id="mobile" placeholder="Enter Mobile Number" required>
+                                </div>
+                                <div class="form-item">
+                                    <input type="submit" value="Send" class="btn btn-success">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
             </main>
         </div>
     </section>
 
+    <footer id="foot">
+        <p>All Rights Reserved @<strong id="yr"></strong></p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/menu.js"></script>
-    
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
