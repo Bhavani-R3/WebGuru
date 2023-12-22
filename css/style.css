@@ -517,6 +517,7 @@ svg{
     justify-content: space-around;
     font-size: 1.3em;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #tutorials .title h3,
